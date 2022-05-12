@@ -1,0 +1,50 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    border: 1px solid black;
+}
+
+.navbar{
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #051C54;
+    height: 100px;
+    color: white;
+}
+
+.ipulogo a{
+    width: 225px;
+    color: white;
+    text-decoration: none;
+}
+
+.Adminlogin{
+    color: white;
+}
+
+.Adminlogin a{
+    color: white;
+    text-decoration: none;
+}
+
+.Adminlogin a:hover{
+    text-decoration: underline;
+}
+
+.regform{
+    display: flex;
+    justify-content: center;
+}
