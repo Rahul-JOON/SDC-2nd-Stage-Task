@@ -12,6 +12,20 @@ a{
 
 input{
     border: 1px solid black;
+    display: table-cell;
+}
+
+select{
+    border: 1px solid black;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+textarea{
+    border: 1px solid black;
 }
 
 .navbar{
@@ -45,6 +59,68 @@ input{
 }
 
 .regform{
+    padding: 50px 250px;
+    height: 500px;
+}
+
+.regform ul{
+    border: 2px solid black;
+    padding: 50px 100px;
+    background-color: rgb(243, 243, 243);
+}
+
+.regform li{
     display: flex;
-    justify-content: center;
+    margin-top: 20px;
+}
+
+.regform li input{
+    flex: 1;
+}
+
+.regform li label{
+    flex: 1;
+}
+
+.regform li select{
+    flex: 1;
+}
+
+.regform li textarea{
+    flex: 1;
+}
+
+.regform button{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #2851ba;
+    color: white;
+    flex: 1;
+    margin: 0px 10px;
+}
+
+.regform button:hover{
+    text-decoration: underline;
+}
+
+.thankyoubox{
+    margin: 10px 20px;
+    text-align: center;
+    padding: 40px 50px;
+    border: 1px solid black;
+}
+
+.backtohome{
+    text-align: center;
+    font-size: 40px;
+}
+
+.backtohome a{
+    color: #051C54;
+    text-decoration: none;
+    border: 2px dashed black;
+}
+
+.backtohome a:hover{
+    border: 2px solid black;
 }
